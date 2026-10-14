@@ -1,0 +1,48 @@
+    1  pwd
+    2  1s
+    3  ls
+    4  cd Downloads
+    5  pwd
+    6  mkdir practice_folder
+    7  ls
+    8  cd practice_folder
+    9  touch test1.txt
+   10  ls
+   11  echo "Hello, this is my first file" > test1.txt
+   12  cat test1.txt
+   13  cp test1.txt test2.txt
+   14  ls
+   15  mv test2.txt renamed_file.txt
+   16  ls
+   17  rm renamed_file.txt
+   18  ls
+   19  cd ..
+   20  rmdir practice_folder
+   21  rm practice_folder/test1.txt
+   22  rmdir practice_folder
+   23  ls
+   24  man ls
+   25  ls --help
+   26  ls -a
+   27  echo "First line" > redirect_test.txt
+   28  cat redirect_test.txt
+   29  echo "Second line" >> redirect_test.txt
+   30  cat redirect_test.txt
+   31  echo -e "Line1\nline2\nline3\nline4\nline5" > multiline.txt
+   32  cat multiline.txt
+   33  head -n 2 multiline.txt
+   34  less multiline.txt
+   35  alias ll='ls-la'
+   36  nano test1.txt
+   37  chmod +x test1.txt
+   38  ls -1 test1.txt
+   39  ps
+   40  kill <PID_number>
+   41  alias ll='ls -la'
+   42  ls -l test1.txt
+   43  ll
+   44  pwd
+   45  echo "Hello, this is my file" > myfile.txt
+   46  ls
+   47  history
+   48  history > all_commands.txt
